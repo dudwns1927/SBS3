@@ -1,0 +1,129 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\dudwn\\Documents\\GitHub\\SBS3\\program\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{53895B6F-9840-4B22-A9F0-E27CC1B917C5}|program.vcxproj|C:\\Users\\dudwn\\Documents\\GitHub\\SBS3\\program\\program.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{53895B6F-9840-4B22-A9F0-E27CC1B917C5}|program.vcxproj|solutionrelative:program.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1B1758CC-5A5E-4E2B-82BB-EB41059E1BF5}|..\\Class4th (Select Sort)\\Class4th (Select Sort).vcxproj|C:\\Users\\dudwn\\Documents\\GitHub\\SBS3\\Class4th (Select Sort)\\Source.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D9C4DAB-72A7-4943-B13F-01BD88B11C0D}|..\\Class3th (Bubble Sort)\\Class3th (Bubble Sort).vcxproj|C:\\Users\\dudwn\\Documents\\GitHub\\SBS3\\Class3th (Bubble Sort)\\Source.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FACA16EE-13D3-4DAF-8F58-12E79595213D}|..\\Class2th (Brute Force)\\Class2th (Brute Force).vcxproj|C:\\Users\\dudwn\\Documents\\GitHub\\SBS3\\Class2th (Brute Force)\\Soruce.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7AEFAA5C-7269-48F2-BC6D-6ABF7F3D9DFF}|..\\Class1th (Ture Complesty \u0026 Space Complesty )\\Class1th (Ture Complesty \u0026 Space Complesty ).vcxproj|C:\\Users\\dudwn\\Documents\\GitHub\\SBS3\\Class1th (Ture Complesty \u0026 Space Complesty )\\Source.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 11,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{08a1bf1d-7967-4afc-8253-1790862ab8c9}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Source.cpp",
+              "DocumentMoniker": "C:\\Users\\dudwn\\Documents\\GitHub\\SBS3\\Class4th (Select Sort)\\Source.cpp",
+              "RelativeDocumentMoniker": "..\\Class4th (Select Sort)\\Source.cpp",
+              "ToolTip": "C:\\Users\\dudwn\\Documents\\GitHub\\SBS3\\Class4th (Select Sort)\\Source.cpp",
+              "RelativeToolTip": "..\\Class4th (Select Sort)\\Source.cpp",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAiwDAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-03-14T10:20:27.076Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Source.cpp",
+              "DocumentMoniker": "C:\\Users\\dudwn\\Documents\\GitHub\\SBS3\\Class3th (Bubble Sort)\\Source.cpp",
+              "RelativeDocumentMoniker": "..\\Class3th (Bubble Sort)\\Source.cpp",
+              "ToolTip": "C:\\Users\\dudwn\\Documents\\GitHub\\SBS3\\Class3th (Bubble Sort)\\Source.cpp",
+              "RelativeToolTip": "..\\Class3th (Bubble Sort)\\Source.cpp",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAiwDAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-03-14T09:36:17.197Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Soruce.cpp",
+              "DocumentMoniker": "C:\\Users\\dudwn\\Documents\\GitHub\\SBS3\\Class2th (Brute Force)\\Soruce.cpp",
+              "RelativeDocumentMoniker": "..\\Class2th (Brute Force)\\Soruce.cpp",
+              "ToolTip": "C:\\Users\\dudwn\\Documents\\GitHub\\SBS3\\Class2th (Brute Force)\\Soruce.cpp",
+              "RelativeToolTip": "..\\Class2th (Brute Force)\\Soruce.cpp",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAAACwAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-03-14T09:04:27.141Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Source.cpp",
+              "DocumentMoniker": "C:\\Users\\dudwn\\Documents\\GitHub\\SBS3\\Class1th (Ture Complesty \u0026 Space Complesty )\\Source.cpp",
+              "RelativeDocumentMoniker": "..\\Class1th (Ture Complesty \u0026 Space Complesty )\\Source.cpp",
+              "ToolTip": "C:\\Users\\dudwn\\Documents\\GitHub\\SBS3\\Class1th (Ture Complesty \u0026 Space Complesty )\\Source.cpp",
+              "RelativeToolTip": "..\\Class1th (Ture Complesty \u0026 Space Complesty )\\Source.cpp",
+              "ViewState": "AQIAABUAAAAAAAAAAAAAACcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-03-14T09:03:01.726Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "program.cpp",
+              "DocumentMoniker": "C:\\Users\\dudwn\\Documents\\GitHub\\SBS3\\program\\program.cpp",
+              "RelativeDocumentMoniker": "program.cpp",
+              "ToolTip": "C:\\Users\\dudwn\\Documents\\GitHub\\SBS3\\program\\program.cpp",
+              "RelativeToolTip": "program.cpp",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAACAAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-03-14T09:03:01.765Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
