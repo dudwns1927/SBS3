@@ -7,6 +7,12 @@
       "RelativeMoniker": "D:0:0:{53895B6F-9840-4B22-A9F0-E27CC1B917C5}|program.vcxproj|solutionrelative:program.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{0283A741-FC0A-46A1-ACED-C6AD75AFAC54}|..\\Class6th (Euclidean)\\Class6th (Euclidean).vcxproj|C:\\Users\\dudwn\\Documents\\GitHub\\SBS3\\Class6th (Euclidean)\\Source.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0388813D-518E-485C-AA51-AE8F6E5A85CC}|..\\Class5th (Insert Sort)\\Class5th (Insert Sort).vcxproj|C:\\Users\\dudwn\\Documents\\GitHub\\SBS3\\Class5th (Insert Sort)\\Source.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{1B1758CC-5A5E-4E2B-82BB-EB41059E1BF5}|..\\Class4th (Select Sort)\\Class4th (Select Sort).vcxproj|C:\\Users\\dudwn\\Documents\\GitHub\\SBS3\\Class4th (Select Sort)\\Source.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
@@ -26,7 +32,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 11,
+          "SelectedChildIndex": 13,
           "Children": [
             {
               "$type": "Bookmark",
@@ -60,18 +66,43 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "Source.cpp",
+              "DocumentMoniker": "C:\\Users\\dudwn\\Documents\\GitHub\\SBS3\\Class6th (Euclidean)\\Source.cpp",
+              "RelativeDocumentMoniker": "..\\Class6th (Euclidean)\\Source.cpp",
+              "ToolTip": "C:\\Users\\dudwn\\Documents\\GitHub\\SBS3\\Class6th (Euclidean)\\Source.cpp",
+              "RelativeToolTip": "..\\Class6th (Euclidean)\\Source.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-03-17T10:39:55.517Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Source.cpp",
+              "DocumentMoniker": "C:\\Users\\dudwn\\Documents\\GitHub\\SBS3\\Class5th (Insert Sort)\\Source.cpp",
+              "RelativeDocumentMoniker": "..\\Class5th (Insert Sort)\\Source.cpp",
+              "ToolTip": "C:\\Users\\dudwn\\Documents\\GitHub\\SBS3\\Class5th (Insert Sort)\\Source.cpp",
+              "RelativeToolTip": "..\\Class5th (Insert Sort)\\Source.cpp",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAiwDEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-03-17T09:13:34.009Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Source.cpp",
               "DocumentMoniker": "C:\\Users\\dudwn\\Documents\\GitHub\\SBS3\\Class4th (Select Sort)\\Source.cpp",
               "RelativeDocumentMoniker": "..\\Class4th (Select Sort)\\Source.cpp",
               "ToolTip": "C:\\Users\\dudwn\\Documents\\GitHub\\SBS3\\Class4th (Select Sort)\\Source.cpp",
               "RelativeToolTip": "..\\Class4th (Select Sort)\\Source.cpp",
               "ViewState": "AQIAAAcAAAAAAAAAAAAiwDAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-03-14T10:20:27.076Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-14T10:20:27.076Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "Source.cpp",
               "DocumentMoniker": "C:\\Users\\dudwn\\Documents\\GitHub\\SBS3\\Class3th (Bubble Sort)\\Source.cpp",
               "RelativeDocumentMoniker": "..\\Class3th (Bubble Sort)\\Source.cpp",
@@ -79,12 +110,11 @@
               "RelativeToolTip": "..\\Class3th (Bubble Sort)\\Source.cpp",
               "ViewState": "AQIAAAcAAAAAAAAAAAAiwDAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-03-14T09:36:17.197Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-14T09:36:17.197Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "Soruce.cpp",
               "DocumentMoniker": "C:\\Users\\dudwn\\Documents\\GitHub\\SBS3\\Class2th (Brute Force)\\Soruce.cpp",
               "RelativeDocumentMoniker": "..\\Class2th (Brute Force)\\Soruce.cpp",
@@ -92,12 +122,11 @@
               "RelativeToolTip": "..\\Class2th (Brute Force)\\Soruce.cpp",
               "ViewState": "AQIAAB4AAAAAAAAAAAAAACwAAAAEAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-03-14T09:04:27.141Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-14T09:04:27.141Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "Source.cpp",
               "DocumentMoniker": "C:\\Users\\dudwn\\Documents\\GitHub\\SBS3\\Class1th (Ture Complesty \u0026 Space Complesty )\\Source.cpp",
               "RelativeDocumentMoniker": "..\\Class1th (Ture Complesty \u0026 Space Complesty )\\Source.cpp",
@@ -105,8 +134,7 @@
               "RelativeToolTip": "..\\Class1th (Ture Complesty \u0026 Space Complesty )\\Source.cpp",
               "ViewState": "AQIAABUAAAAAAAAAAAAAACcAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-03-14T09:03:01.726Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-14T09:03:01.726Z"
             },
             {
               "$type": "Document",
@@ -116,7 +144,7 @@
               "RelativeDocumentMoniker": "program.cpp",
               "ToolTip": "C:\\Users\\dudwn\\Documents\\GitHub\\SBS3\\program\\program.cpp",
               "RelativeToolTip": "program.cpp",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAACAAAAAFAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-03-14T09:03:01.765Z",
               "EditorCaption": ""
