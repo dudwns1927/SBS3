@@ -1,54 +1,67 @@
 ﻿#include <iostream>
-#include <vector>
+#include <functional> // function 헤더 추가
+
 using namespace std;
 
+#pragma region 분할 정복
+    // 주어진 2개 이상의 부분으로 문제를 나눈 뒤 각 부분
+    // 문제에 대한 답을 재귀 호출을 이용하여 계산한 다음
+    // 해당 답으로부터 전체 문제의 답을 계산해내는 알고리즘 입니다.
+
+    // 분할 (Divide) : 주어진 문제를 두 개 혹은 그 이상의 형식으로 나눈다.
+
+    // 정복 (Conqure) : 나누어진 문제를 재귀적으로 해결해서 나누어진 문제를
+    //                  더 이상 나누어서 문제가 필요없을 때까지 계속 분할합니다.
+
+    // 통합 (Combine) : 나누어서 해결한 문제들을 통합해서 원래 문제의 해답을 생성합니다.
+
+    /*
+    int arr[] = { 20, 15, 99, 1 };
+    int n = sizeof(arr) / sizeof(arr[0]);
 
 
+    function<int(int, int)> FindMax = [&](int left, int right) -> int {
+        if (left == right) return arr[left]; 
+        int mid = (left + right) / 2;
+        int leftMax = FindMax(left, mid);
+        int rightMax = FindMax(mid + 1, right);
+        return max(leftMax, rightMax);
+        };
+        
+    int result = FindMax(0, n - 1); 
+    cout << "최댓값: " << result << endl;
 
-#pragma region 계수 정렬
-    // 데이터의 값을 비교하지 않고 각 원소에 데이터가
-    // 몇 개 있는지 갯수를 세어 저장한 다음 정렬하는 알고리즘 입니다.
-
-void countSort(vector<int>&arr) {
-    int maxVal = *max_element(arr.begin(), arr.end());
-
-
-    vector<int> count(maxVal + 1, 0);
-    for (int num : arr) {
-        count[num]++;
+    return 0;
+    */
+int Find(int list[], int left, int right)
+{
+    if (left == right)
+    {
+        return list[left];
     }
+    else
+    {
+        int leftMax = Find(list, left, (left + right) / 2);
+        int rightMax = Find(list, (left + right) / 2 + 1, right);
 
-
-    int index = 0;
-    for (int i = 0; i <= maxVal; i++) {
-        while (count[i] > 0) { 
-            arr[index++] = i; 
-            count[i]--;      
+        if (left < rightMax)
+        {
+            return rightMax;
+        }
+        else
+        {
+            return leftMax;
         }
     }
 }
 
-int main() {
-    vector<int> arr = { 1, 1, 3, 1, 2, 3, 4, 4, 2, 5 };
+int main()
+{
+    int list[] = { 20, 15, 99, 1 };
 
-    cout << "정렬 전: ";
-    for (int num : arr) cout << num << " ";
-    cout << endl;
+    int size = sizeof(list) / sizeof(int);
 
-    countSort(arr);
-
-    cout << "정렬 후: ";
-    for (int num : arr) cout << num << " ";
-    cout << endl;
-
-    return 0;
+    cout << "최댓값: " << Find(list, 0 ,size - 1) << endl;
 }
 
-
-
-
 #pragma endregion
-
-
-
-
