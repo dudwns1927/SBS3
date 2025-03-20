@@ -1,67 +1,50 @@
 ﻿#include <iostream>
-#include <functional> // function 헤더 추가
+
+#define SIZE 8
 
 using namespace std;
 
-#pragma region 분할 정복
-    // 주어진 2개 이상의 부분으로 문제를 나눈 뒤 각 부분
-    // 문제에 대한 답을 재귀 호출을 이용하여 계산한 다음
-    // 해당 답으로부터 전체 문제의 답을 계산해내는 알고리즘 입니다.
+#pragma region 이진 탐색 (Two Pointer)
+	// 탐색 범위를 반으로 나누어 찾는 값을 포함하는 범위를
+	// 좁혀나가는 방식으로 동작하는 알고리즘 입니다.
 
-    // 분할 (Divide) : 주어진 문제를 두 개 혹은 그 이상의 형식으로 나눈다.
-
-    // 정복 (Conqure) : 나누어진 문제를 재귀적으로 해결해서 나누어진 문제를
-    //                  더 이상 나누어서 문제가 필요없을 때까지 계속 분할합니다.
-
-    // 통합 (Combine) : 나누어서 해결한 문제들을 통합해서 원래 문제의 해답을 생성합니다.
-
-    /*
-    int arr[] = { 20, 15, 99, 1 };
-    int n = sizeof(arr) / sizeof(arr[0]);
+	// 배열 left와 right 엇갈린 상태인 경우에는 함수 종료
+	// left > right
 
 
-    function<int(int, int)> FindMax = [&](int left, int right) -> int {
-        if (left == right) return arr[left]; 
-        int mid = (left + right) / 2;
-        int leftMax = FindMax(left, mid);
-        int rightMax = FindMax(mid + 1, right);
-        return max(leftMax, rightMax);
-        };
-        
-    int result = FindMax(0, n - 1); 
-    cout << "최댓값: " << result << endl;
+void binary_search(int list[], int key) {
+	int left = 0;
+	int right = SIZE - 1;
 
-    return 0;
-    */
-int Find(int list[], int left, int right)
-{
-    if (left == right)
-    {
-        return list[left];
-    }
-    else
-    {
-        int leftMax = Find(list, left, (left + right) / 2);
-        int rightMax = Find(list, (left + right) / 2 + 1, right);
+    while (left <= right) {
+        int middle = (left + right) / 2;
 
-        if (left < rightMax)
-        {
-            return rightMax;
+        if (list[middle] == key) {
+            cout << "Key Found : " << list[middle] << endl;
+            
+            return;
         }
-        else
-        {
-            return leftMax;
+        else if (list[middle] > key) {
+            right = middle - 1;
+        }
+        else {
+            left = middle + 1;
+            
         }
     }
+    cout << "Not Key Found" << endl;
 }
+
 
 int main()
 {
-    int list[] = { 20, 15, 99, 1 };
+	int list[8] = { 5,6,11,13,27,55,66,99 };
 
-    int size = sizeof(list) / sizeof(int);
 
-    cout << "최댓값: " << Find(list, 0 ,size - 1) << endl;
+	binary_search(list, 99);
+
+	return 0;
+
 }
 
 #pragma endregion
