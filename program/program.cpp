@@ -1,47 +1,66 @@
 ﻿#include <iostream>
 
-#define SIZE 8
+#define SIZE 6
 
 using namespace std;
 
-#pragma region 이진 탐색 (Two Pointer)
-	// 탐색 범위를 반으로 나누어 찾는 값을 포함하는 범위를
-	// 좁혀나가는 방식으로 동작하는 알고리즘 입니다.
+#pragma region 퀵 정렬
+	// 기준점을 획득한 다음 기준점을 기준으로 배열을 나누고 한 쪽에는
+	// 기준점보다 작은 값들이 위치하게 하고 다른 한 쪽에는 기준점보다
+	// 큰 값들이 위치하도록 정렬합니다.
+	// 
+	// 나누어진 하위 배열에 대해 재귀적으로 퀵 정렬을 호출하여
+	// 모든 배열이 기본 배열이 될 때까지 반복하면서 정렬하는 알고리즘 입니다.
 
-	// 배열 left와 right 엇갈린 상태인 경우에는 함수 종료
-	// left > right
+void quick_sort(int list[], int start, int end)
+{
+	if (start >= end)
+		return;
 
+	int pivot = start;
+	int left = start + 1;
+	int	right = end;
 
-void binary_search(int list[], int key) {
-	int left = 0;
-	int right = SIZE - 1;
+	// left가 right보다 크거나 같을때까지 반복합니다.
 
-    while (left <= right) {
-        int middle = (left + right) / 2;
+	while (left <= right)
+	{
+		// left가 end보다 작거나 같고 list[left]가
+		// list[pivot]보다 적거나 같을 때까지 반복합니다.
+		while (left <= end && list[pivot] >= list[left])
+		{
+			left++;
+		}
 
-        if (list[middle] == key) {
-            cout << "Key Found : " << list[middle] << endl;
-            
-            return;
-        }
-        else if (list[middle] > key) {
-            right = middle - 1;
-        }
-        else {
-            left = middle + 1;
-            
-        }
-    }
-    cout << "Not Key Found" << endl;
+		// right가 start보다 크고 list[right]가
+		// list[pivot]보다 크거나 같을 때까지 반복합니다.
+		while (right > start && list[pivot] <= list[right])
+		{
+			right--;
+		}
+
+		if (left > right)
+		{
+			std::swap(list[pivot], list[right]);
+		}
+		else
+		{
+			std::swap(list[left], list[right]);
+		}
+	}
+	quick_sort(list, start, right - 1);
+	quick_sort(list, right + 1, end);
 }
-
 
 int main()
 {
-	int list[8] = { 5,6,11,13,27,55,66,99 };
+	int list[SIZE] = { 5,4,6,2,1,3 };
 
+	quick_sort(list, 0, SIZE - 1);
 
-	binary_search(list, 99);
+	for (int i = 0; i < SIZE; i++) {
+		cout << list[i] << " ";
+	}
 
 	return 0;
 
