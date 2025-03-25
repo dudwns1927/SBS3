@@ -1,92 +1,48 @@
 ﻿#include <iostream>
 
-#define SIZE 8
-
 using namespace std;
 
-// 병합 함수: 두 개의 정렬된 부분 배열을 합침
-void combine(int list[], int start, int middle, int end) {
-    int count = 0;
-    int left = start;
-    int right = middle + 1;
-    int* container = new int[end - start + 1];  // 동적 배열 생성
 
-    // 두 부분을 병합하는 과정
-    while (left <= middle && right <= end) {
-        if (list[left] <= list[right]) {
-            container[count++] = list[left++];
-        } else {
-            container[count++] = list[right++];
-        }
+
+int Fibonacci(int n) {
+    if (n <= 0) 
+    {
+        return 0;
     }
-
-    // 남은 요소 복사 (왼쪽 부분)
-    while (left <= middle) {
-        container[count++] = list[left++];
+    else if (n <= 2)
+    {
+        return 1;
     }
-
-    // 남은 요소 복사 (오른쪽 부분)
-    while (right <= end) {
-        container[count++] = list[right++];
-    }
-
-    // 원래 배열에 복사
-    for (int i = 0; i < count; i++) {
-        list[start + i] = container[i];
-    }
-
-    delete[] container;
-}
-
-
-void merge_sort(int arr[], int start, int end) {
-    if (start >= end) return; 
-
-    int middle = (start + end) / 2;
-
-
-    merge_sort(arr, start, middle);
-
-    merge_sort(arr, middle + 1, end);
-
-    combine(arr, start, middle, end);
+    
+    return Fibonacci(n - 1) + Fibonacci(n - 2);
+    
 }
 
 int main() {
-    int arr[SIZE] = {3, 5, 2, 7, 4, 1, 8, 6};
 
-    cout << "Before Sorting: ";
-    for (int i = 0; i < SIZE; i++) {
-        cout << arr[i] << " ";
-    }
-    cout << endl;
+    cout << Fibonacci(7) << endl;
+    
 
-    merge_sort(arr, 0, SIZE - 1);
-
-    cout << "After Sorting: ";
-    for (int i = 0; i < SIZE; i++) {
-        cout << arr[i] << " ";
-    }
-    cout << endl;
 
     return 0;
 }
 
-#pragma region 병합 정렬
-	// 하나의 리스트를 두 개의 균일한 크기로 분할하고 분할된
-	// 부분 리스트를 정렬한 다음, 두 개의 정렬된 부분 리스트를
-	// 합하여 전체가 정렬된 리스트가 되게 하는 방법입니다.
+#pragma region 동적 계획법
+    // 특성 범위까지의 값을 구하기 위해 그것과
+    // 다른 범위까지의 값을 이용해서 효율적으로 값을 구하는 알고리즘 입니다.
 
-	// 1. 리스트의 길이가 0 또는 1이면 이미 정렬된 것으로 봅니다.
-	
-	// 2. 그렇지 않은 경우
+    // (Overlapping Subproblems) 겹치는 부분 문제
+    // 동일한 작은 문제들이 반복하여 나타나는 경우를 의미합니다.
+    // 
+    // (Optimal Substructure) 최적 부분 구조
+    // 부분 문제의 최적 결과 값을 사용하여 전체 문제의 최적 결과를
+    // 낼 수 있는 경우를 의미합니다.
+    // 
+    // (Memoization) 메모이제이션
+    // 프로그램이 동일한 계싼을 반복해야 할 때, 이전에 계산한 값을 
+    // 메모리에 저장함으로써 동일한 계산을 반복 수행하는 작업을 제거하여
+    // 프로그램의 실행 속도를 향상시키는 방법입니다.
 
-	// 2-1. 정렬되지 않은 리스트를 절반으로 잘라 비슷한 크기의
-	//		두 부분 리스트로 나눕니다.
-
-	// 2-2. 각 부분 리스트를 재귀적으로 병합 정렬을 이용하여 정렬합니다.
-
-	// 2-3. 두 부분 리스트를 다시 하나의 정렬된 리스트로 병합합니다.
 
 
 #pragma endregion
