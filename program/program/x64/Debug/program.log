@@ -1,2 +1,3 @@
 ﻿  program.cpp
+C:\Users\dudwn\Documents\GitHub\SBS3\program\program.cpp(37,1): warning C4172: 지역 변수 또는 임시: count의 주소를 반환하고 있습니다.
   program.vcxproj -> C:\Users\dudwn\Documents\GitHub\SBS3\program\x64\Debug\program.exe

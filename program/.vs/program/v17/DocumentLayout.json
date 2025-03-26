@@ -7,7 +7,16 @@
       "RelativeMoniker": "D:0:0:{53895B6F-9840-4B22-A9F0-E27CC1B917C5}|program.vcxproj|solutionrelative:program.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{1218D752-8CE3-4933-B063-08E12EC10E36}|..\\Class11th (Quick Sort)\\Class11th (Quick Sort).vcxproj|C:\\Users\\dudwn\\Documents\\GitHub\\SBS3\\Class11th (Quick Sort)\\Class11th (Quick Sort).cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{C5F773FC-AD5E-4914-BB9B-E2488800721A}|..\\Class10th (Binary Search)\\Class10th (Binary Search).vcxproj|C:\\Users\\dudwn\\Documents\\GitHub\\SBS3\\Class10th (Binary Search)\\Class10th (Binary Search).cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F573A998-77DE-4DCE-8535-68FE94350582}|..\\Class13th (Dynamic Programming)\\Class13th (Dynamic Programming).vcxproj|C:\\Users\\dudwn\\Documents\\GitHub\\SBS3\\Class13th (Dynamic Programming)\\Class13th (Dynamic Programming).cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FACA16EE-13D3-4DAF-8F58-12E79595213D}|..\\Class2th (Brute Force)\\Class2th (Brute Force).vcxproj|C:\\Users\\dudwn\\Documents\\GitHub\\SBS3\\Class2th (Brute Force)\\Soruce.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2F6F1DA4-127E-454B-B6AC-31D9D3D37DE5}|..\\Class9th (Divide and conquer)\\Class9th (Divide and conquer).vcxproj|C:\\Users\\dudwn\\Documents\\GitHub\\SBS3\\Class9th (Divide and conquer)\\Class9th (Divide and conquer).cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
@@ -31,9 +40,6 @@
       "AbsoluteMoniker": "D:0:0:{9D9C4DAB-72A7-4943-B13F-01BD88B11C0D}|..\\Class3th (Bubble Sort)\\Class3th (Bubble Sort).vcxproj|C:\\Users\\dudwn\\Documents\\GitHub\\SBS3\\Class3th (Bubble Sort)\\Source.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FACA16EE-13D3-4DAF-8F58-12E79595213D}|..\\Class2th (Brute Force)\\Class2th (Brute Force).vcxproj|C:\\Users\\dudwn\\Documents\\GitHub\\SBS3\\Class2th (Brute Force)\\Soruce.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{7AEFAA5C-7269-48F2-BC6D-6ABF7F3D9DFF}|..\\Class1th (Ture Complesty \u0026 Space Complesty )\\Class1th (Ture Complesty \u0026 Space Complesty ).vcxproj|C:\\Users\\dudwn\\Documents\\GitHub\\SBS3\\Class1th (Ture Complesty \u0026 Space Complesty )\\Source.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
@@ -44,7 +50,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 13,
+          "SelectedChildIndex": 14,
           "Children": [
             {
               "$type": "Bookmark",
@@ -76,19 +82,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Source.cpp",
-              "DocumentMoniker": "C:\\Users\\dudwn\\Documents\\GitHub\\SBS3\\Class7th (Slieve of Eratostheres)\\Source.cpp",
-              "RelativeDocumentMoniker": "..\\Class7th (Slieve of Eratostheres)\\Source.cpp",
-              "ToolTip": "C:\\Users\\dudwn\\Documents\\GitHub\\SBS3\\Class7th (Slieve of Eratostheres)\\Source.cpp",
-              "RelativeToolTip": "..\\Class7th (Slieve of Eratostheres)\\Source.cpp",
-              "ViewState": "AQIAACkAAAAAAAAAAAAiwFIAAAAAAAAA",
+              "DocumentIndex": 1,
+              "Title": "Class11th (Quick Sort).cpp",
+              "DocumentMoniker": "C:\\Users\\dudwn\\Documents\\GitHub\\SBS3\\Class11th (Quick Sort)\\Class11th (Quick Sort).cpp",
+              "RelativeDocumentMoniker": "..\\Class11th (Quick Sort)\\Class11th (Quick Sort).cpp",
+              "ToolTip": "C:\\Users\\dudwn\\Documents\\GitHub\\SBS3\\Class11th (Quick Sort)\\Class11th (Quick Sort).cpp",
+              "RelativeToolTip": "..\\Class11th (Quick Sort)\\Class11th (Quick Sort).cpp",
+              "ViewState": "AQIAACQAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-03-18T10:19:56.725Z"
+              "WhenOpened": "2025-03-26T09:45:20.926Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 3,
+              "Title": "Class13th (Dynamic Programming).cpp",
+              "DocumentMoniker": "C:\\Users\\dudwn\\Documents\\GitHub\\SBS3\\Class13th (Dynamic Programming)\\Class13th (Dynamic Programming).cpp",
+              "RelativeDocumentMoniker": "..\\Class13th (Dynamic Programming)\\Class13th (Dynamic Programming).cpp",
+              "ToolTip": "C:\\Users\\dudwn\\Documents\\GitHub\\SBS3\\Class13th (Dynamic Programming)\\Class13th (Dynamic Programming).cpp",
+              "RelativeToolTip": "..\\Class13th (Dynamic Programming)\\Class13th (Dynamic Programming).cpp",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAiwDcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-03-26T09:17:55.863Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "Source.cpp",
               "DocumentMoniker": "C:\\Users\\dudwn\\Documents\\GitHub\\SBS3\\Class6th (Euclidean)\\Source.cpp",
               "RelativeDocumentMoniker": "..\\Class6th (Euclidean)\\Source.cpp",
@@ -100,7 +120,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 9,
               "Title": "Source.cpp",
               "DocumentMoniker": "C:\\Users\\dudwn\\Documents\\GitHub\\SBS3\\Class5th (Insert Sort)\\Source.cpp",
               "RelativeDocumentMoniker": "..\\Class5th (Insert Sort)\\Source.cpp",
@@ -112,7 +132,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 10,
               "Title": "Source.cpp",
               "DocumentMoniker": "C:\\Users\\dudwn\\Documents\\GitHub\\SBS3\\Class4th (Select Sort)\\Source.cpp",
               "RelativeDocumentMoniker": "..\\Class4th (Select Sort)\\Source.cpp",
@@ -124,7 +144,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 11,
               "Title": "Source.cpp",
               "DocumentMoniker": "C:\\Users\\dudwn\\Documents\\GitHub\\SBS3\\Class3th (Bubble Sort)\\Source.cpp",
               "RelativeDocumentMoniker": "..\\Class3th (Bubble Sort)\\Source.cpp",
@@ -136,7 +156,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 4,
               "Title": "Soruce.cpp",
               "DocumentMoniker": "C:\\Users\\dudwn\\Documents\\GitHub\\SBS3\\Class2th (Brute Force)\\Soruce.cpp",
               "RelativeDocumentMoniker": "..\\Class2th (Brute Force)\\Soruce.cpp",
@@ -144,7 +164,8 @@
               "RelativeToolTip": "..\\Class2th (Brute Force)\\Soruce.cpp",
               "ViewState": "AQIAAB4AAAAAAAAAAAAAACwAAAAEAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-03-14T09:04:27.141Z"
+              "WhenOpened": "2025-03-14T09:04:27.141Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -154,14 +175,14 @@
               "RelativeDocumentMoniker": "program.cpp",
               "ToolTip": "C:\\Users\\dudwn\\Documents\\GitHub\\SBS3\\program\\program.cpp",
               "RelativeToolTip": "program.cpp",
-              "ViewState": "AQIAACQAAAAAAAAAAAAAADMAAAAiAAAA",
+              "ViewState": "AQIAADsAAAAAAAAAAAAAAFwAAAAHAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-03-14T09:03:01.765Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Class10th (Binary Search).cpp",
               "DocumentMoniker": "C:\\Users\\dudwn\\Documents\\GitHub\\SBS3\\Class10th (Binary Search)\\Class10th (Binary Search).cpp",
               "RelativeDocumentMoniker": "..\\Class10th (Binary Search)\\Class10th (Binary Search).cpp",
@@ -174,7 +195,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 7,
+              "Title": "Source.cpp",
+              "DocumentMoniker": "C:\\Users\\dudwn\\Documents\\GitHub\\SBS3\\Class7th (Slieve of Eratostheres)\\Source.cpp",
+              "RelativeDocumentMoniker": "..\\Class7th (Slieve of Eratostheres)\\Source.cpp",
+              "ToolTip": "C:\\Users\\dudwn\\Documents\\GitHub\\SBS3\\Class7th (Slieve of Eratostheres)\\Source.cpp",
+              "RelativeToolTip": "..\\Class7th (Slieve of Eratostheres)\\Source.cpp",
+              "ViewState": "AQIAACkAAAAAAAAAAAAiwFIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-03-18T10:19:56.725Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "Class9th (Divide and conquer).cpp",
               "DocumentMoniker": "C:\\Users\\dudwn\\Documents\\GitHub\\SBS3\\Class9th (Divide and conquer)\\Class9th (Divide and conquer).cpp",
               "RelativeDocumentMoniker": "..\\Class9th (Divide and conquer)\\Class9th (Divide and conquer).cpp",
@@ -186,7 +219,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 12,
               "Title": "Source.cpp",
               "DocumentMoniker": "C:\\Users\\dudwn\\Documents\\GitHub\\SBS3\\Class1th (Ture Complesty \u0026 Space Complesty )\\Source.cpp",
               "RelativeDocumentMoniker": "..\\Class1th (Ture Complesty \u0026 Space Complesty )\\Source.cpp",
@@ -198,7 +231,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "Source.cpp",
               "DocumentMoniker": "C:\\Users\\dudwn\\Documents\\GitHub\\SBS3\\Class8th (Count Sort)\\Source.cpp",
               "RelativeDocumentMoniker": "..\\Class8th (Count Sort)\\Source.cpp",
