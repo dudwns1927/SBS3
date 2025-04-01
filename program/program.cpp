@@ -1,80 +1,64 @@
 ﻿#include <iostream>
-#include <vector>
-#define SIZE 8
+#define SIZE 6
 using namespace std;
-
-template <typename T>
-class Node
-{
-private:
-    bool visited[SIZE];
-    vector<int> adjacencyList[SIZE];
-public:
-    Node() {
-        for (int i = 0; i < SIZE; i++) 
-        {
-            visited[i] = false;
-        }
-    }
-    void insert(int i, int j) {
-        adjacencyList[i].push_back(j);
-        adjacencyList[j].push_back(i);
-    }
-
-    void search(int start){
-        if (visited[start]) return;
-
-        visited[start] = true;
-        cout << start << " ";
-
-        for (int neighbor : adjacencyList[start]) {
-            search(neighbor);
-        }
-    }
-};
-
   
+int parent[SIZE];
+
+    // Root Node를 찾는 함수
+
+
+int find(int x) {
+    // 배열의 인덱스와 값이 같다면 Root Node 발견
+    if (parent[x] == x)
+    {
+        return x;
+    }
+    else
+    {
+    // 부모 노드의 번호를 전달하면서, Root Node를 찾을 때까지
+    // 재귀 호출을 반복합니다.
+        return parent[x] = find(parent[x]);
+    }
+}
+
+void Union(int x, int y) {
+    x = find(x);
+    y = find(y);
+
+    if (x == y)
+    {
+        return;
+    }
+    if (x < y)
+    {
+        parent[y] = x;
+    }
+    else
+    {
+        parent[x] = y;
+    }
+}
+
 int main() {
 
-    Node<int> node;
-
-    node.insert(1, 2);
-    node.insert(1, 3);
-
-    node.insert(2, 3);
-    node.insert(2, 4);
-    node.insert(2, 5);
-
-
-    node.insert(3, 6);
-    node.insert(3, 7);
-    
-    node.insert(4, 5);
-    node.insert(6, 7);
-
-    node.search(1);
+    for (int i = 0; i < SIZE; i++)
+    {
+        parent[i] = i;
+    }
 
     return 0;
 }
 
-#pragma region 깊이 우선 탐색 (Depth First Search)
-    // root 노드에서부터 다음 분기로 넘어가기 전에 해당 분기를
-    // 완벽하게 탐색하는 방법입니다.
+#pragma region 유니온 파인드
+    // 여러 노드가 존재할 때 어떤 노드가 다른 노드와
+    // 연결되어 있는지 확인하는 알고리즘 입니다.
     // 
-    // 깊이 우선 탐색은 자료 구조 (stack)을 활용합니다.
+    // Union : 특정한 두 개의 노드를 같은 집합으로 합치는 연산입니다.
     // 
-    // 1. 시작 노드를 스택에 넣고 방문 처리를 합니다.
+    // Find : 특정한 노드가 어느 집합에 있는지 확인하는 연산입니다.
     // 
-    // 2. 스택의 최상단 노드에 방문하지 않은 인접 노드가
-    //    있으면 그 노드를 스택에 넣고 방문 처리합니다.
     // 
-    // 3. 방문하지 않은 인접 노드가 없으면 스택에서 최상단에
-    //    있는 노드를 꺼냅니다.
-    // 
-    // 4. 더 이상 2번의 과정을 수행할 수 없을 때까지 반복합니다.
     //
-
-
 
 
 
